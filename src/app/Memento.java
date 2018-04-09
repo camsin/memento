@@ -19,7 +19,7 @@ public class Memento {
         this.estado = estado;
     }
     
-    //Obtiene el estado del memento.
+    //Obtiene el estado del memento (que es el nombre).
     public String getSavedState(){
         return estado;
     }
